@@ -69,37 +69,37 @@ public class DetegoMemberReg extends BaseClassProj{
 		}
 
 		public WebElement getFirstName() {
-			//firstName.sendKeys("joy");
+			firstName.sendKeys("joy");
 			return firstName;
 		}
 
 		public WebElement getLastName() {
-			//passTheValue(lastName, "win");
+			passTheValue(lastName, "win");
 			return lastName;
 		}
 
 		public WebElement getMbrId() {
-			//passTheValue(MbrId, "123546789");
+			passTheValue(MbrId, "123546789");
 			return MbrId;
 		}
 
 		public WebElement getLastSsn() {
-			//passTheValue(lastSsn, "1456");
+			passTheValue(lastSsn, "1456");
 			return lastSsn;
 		}
 
 		public WebElement getDob() {
-			//passTheValue(dob, "12122000");
+			passTheValue(dob, "12122000");
 			return dob;
 		}
 
 		public WebElement getPhNo() {
-			//passTheValue(phNo, "1478523695");
+			passTheValue(phNo, "1478523695");
 			return phNo;
 		}
 
 		public WebElement getMail() {
-			//passTheValue(mail, "joy@gamil.com");
+			passTheValue(mail, "joy@gamil.com");
 			return mail;
 		}
 		
