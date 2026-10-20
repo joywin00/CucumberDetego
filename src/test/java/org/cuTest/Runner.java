@@ -20,7 +20,7 @@ tags = "@detego1",
 
 "html:E:\\Cucumber\\Report\\html report\\detego.html",
 "junit:E:\\Cucumber\\Report\\json report\\detego.xml",	
-"json:E:\\Cucumber\\Report\\junit report\\detego.json",
+//"json:E:\\Cucumber\\Report\\junit report\\detego.json",
 "rerun:E:\\Cucumber\\Report\\ReRun report\\rerun.txt"
 })
 
