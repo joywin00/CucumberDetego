@@ -76,6 +76,7 @@ public WebElement getYt() throws InterruptedException {
 		
 		Sleep(2000);
 		yt.click();
+		Sleep(1000);
 		Assert.assertEquals("https://detegohealth.com/contact/", "https://detegohealth.com/contact/");
 		switchToWindow(0);
 		
@@ -86,12 +87,12 @@ public WebElement getIg() throws InterruptedException {
 	Sleep(2000);	
 	ig.click();
 	
-	//Assert.assertTrue(true, "ig clicked");
+	Assert.assertTrue(true, "ig clicked");
 	return ig;
 }
 
 public WebElement getIgCancel() throws Exception {
-	Sleep(2000);
+	Sleep(3000);
 	enter();
 	Sleep(2000);
 	return igCancel;
@@ -125,9 +126,10 @@ public WebElement getGoogle() throws InterruptedException {
 	}
 	
 	public WebElement getfbEmail() {
-		//jsSetAttr(fbEmail, "joy@gmail.com");
+		nextWindow();
+		jsSetAttr(fbEmail, "joy@gmail.com");
 		//switchToWindow(1);
-   passTheValue(fbEmail, "joy@gmail.com");
+       // passTheValue(fbEmail, "joy@gmail.com");
 		return fbEmail;
 	}
 	

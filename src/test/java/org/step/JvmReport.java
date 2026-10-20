@@ -27,7 +27,7 @@ public class JvmReport {
 	}
 	public static void main(String[] args) {
 		
-		JvmReport.generateJvmReport("E:\\Cucumber\\Report\\html report\\detego.html");
+		JvmReport.generateJvmReport("E:\\Cucumber\\Report\\json report\\detego.json");
 	}
 	
 

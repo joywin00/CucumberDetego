@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = "@E:\\Cucumber\\Report\\ReRun report\\rerun.txt", 
 dryRun = false,
 glue = "org.step", 
-tags = "@detego3",
+//tags = "@detego3",
 plugin = {"pretty",
 		"html:E:\\Cucumber\\Report\\html report\\detego.html",
 		"junit:E:\\Cucumber\\Report\\json report\\detego.xml",	

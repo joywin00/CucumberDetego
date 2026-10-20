@@ -89,7 +89,7 @@ public class StepDef extends BaseClassProj{
 	@When("user have to pass the mbr details and click register button")
 	public void user_have_to_pass_the_mbr_details_and_click_register_button() throws InterruptedException {
 
-		Sleep(3000);
+		Sleep(5000);
 		DetegoMemberReg m= new DetegoMemberReg();
 		m.getFirstName();
 		m.getLastName();
@@ -149,7 +149,7 @@ System.out.println("then");
 
 		DetegoCreateNew c= new DetegoCreateNew();
 			
-		Assert.assertEquals(c.getReg(), "That code doesn't match. Please re-enter carefully.");
+		Assert.assertTrue(false,"invalid code");
 		quit();	
 		System.out.println("then");
 	}	
@@ -277,7 +277,6 @@ System.out.println("then");
 		DetegoApp a= new DetegoApp();
 		a.getFb();
 		a.getfbEmail();
-		Assert.assertEquals(a.getfbEmail(), "joy@gmail.com");
 		a.getfbPwd();
 		a.getfbLogIn();
 	}

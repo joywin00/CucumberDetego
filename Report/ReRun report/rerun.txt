@@ -1,0 +1,2 @@
+file:src/test/resources/featurefile/detCreateNew.feature:7
+file:src/test/resources/featurefile/detMbrReg.feature:3

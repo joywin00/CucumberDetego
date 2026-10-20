@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="53.486" tests="2" skipped="0" failures="1" errors="0" timestamp="2026-10-20T14:52:50.368325500Z">
+<testcase classname="user have to create New Account on Detego Health Provider Portal" name="user have to create new account in provider page" time="21.217">
+<failure type="java.lang.AssertionError" message="invalid code expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: invalid code expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.step.StepDef.user_have_to_quit_the_browser1(StepDef.java:152)
+	at ✽.user have to quit the browser1(file:///E:/Cucumber/src/test/resources/featurefile/detCreateNew.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user have to launch detego health prov portal using chrome browser....passed
+When user have to click the provider button and click create an account button.passed
+Then click being registered button..........................................passed
+And user have to enter mailId and code function and click next button.......passed
+Then user have to quit the browser1.........................................failed
+]]></system-out>
+</testcase>
+<testcase classname="user have to validate member registration functionality in detego portal" name="user have to validate mbr page" time="32.003">
+<system-out><![CDATA[
+Given user have to launch detego health portal using chrome browser.........passed
+And user have to click the members and click check elig button..............passed
+When user have to pass the mbr details and click register button............passed
+Then user have to quit the browser..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
