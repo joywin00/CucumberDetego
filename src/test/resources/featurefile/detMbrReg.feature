@@ -1,3 +1,4 @@
+@detego2 
 Feature: user have to validate member registration functionality in detego portal
 Scenario: user have to validate mbr page
 Given user have to launch detego health portal using chrome browser

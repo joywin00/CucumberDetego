@@ -44,8 +44,6 @@ public class DetegoCreateNew extends BaseClassProj {
 		@FindBy(xpath="//button[text()='Continue']")
 		private WebElement conti;
 		
-		@FindBy(xpath="//div[contains(text(),' Please re-enter carefully.')]")
-		private WebElement msg;
 
 		public WebElement getAccept() {
 			accept.click();
@@ -63,6 +61,7 @@ public class DetegoCreateNew extends BaseClassProj {
 		}
 
 		public WebElement getReg() {
+//			a.moveToElement(reg).click().build().perform();
 			reg.click();
 			return reg;
 		}
@@ -87,10 +86,6 @@ public class DetegoCreateNew extends BaseClassProj {
 			return cont;
 		}
 		
-		public WebElement getMsg() {
-			msg.getText();
-			return msg;
-		}
 		
 	
 		

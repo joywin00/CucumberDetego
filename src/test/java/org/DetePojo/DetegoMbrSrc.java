@@ -84,13 +84,13 @@ public class DetegoMbrSrc extends BaseClassProj{
 		return elig;
 	}
 
-	public WebElement getMbrId() {
-		passTheValue(mbrId, "123466789");
+	public WebElement getMbrId(String val) {
+		passTheValue(mbrId, val);
 		return mbrId;
 	}
 
-	public WebElement getMbrDob() {
-		passTheValue(mbrDob, "12/12/2000");
+	public WebElement getMbrDob(String dob) {
+		passTheValue(mbrDob, dob);
 		return mbrDob;
 	}
 

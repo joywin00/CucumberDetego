@@ -81,8 +81,8 @@ public class DetegoCodeNotRece extends BaseClassProj{
 			return reg;
 		}
 
-		public WebElement getEmail(String val) {
-			passTheValue(email, val);
+		public WebElement getEmail() {
+		//	passTheValue(email, str);
 			return email;
 		}
 
@@ -117,18 +117,18 @@ public class DetegoCodeNotRece extends BaseClassProj{
 		}
 		
 		
-		public WebElement getName() {
-			passTheValue(name, "jo");
+		public WebElement getName(String string) {
+			passTheValue(name, string);
 			return name;
 		}
 		
-		public WebElement getTin() {
-			passTheValue(tin, "123456789");
+		public WebElement getTin(String string) {
+			passTheValue(tin, string);
 			return tin;
 		}
 		
-		public WebElement getPhNo() {
-			passTheValue(phNo, "74125896322");
+		public WebElement getPhNo(String string) {
+			passTheValue(phNo, string);
 			return phNo;
 		}
 		
@@ -137,8 +137,8 @@ public class DetegoCodeNotRece extends BaseClassProj{
 			return topic;
 		}
 		
-		public WebElement getDesc() {
-			passTheValue(decription, "for testing");
+		public WebElement getDesc(String string) {
+			passTheValue(decription, string);
 			return decription;
 		}
 		

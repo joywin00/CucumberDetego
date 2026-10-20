@@ -1,3 +1,4 @@
+@detego3
 Feature: user have to create New Account on Detego Health Provider Portal
 
 Background:

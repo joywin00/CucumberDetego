@@ -56,14 +56,17 @@ public class DetegoContactUs extends BaseClassProj{
 			return accept;
 		}
 
-		public WebElement getContUs() {
+		public WebElement getContUs() throws InterruptedException {
 			Actions a = new Actions(getDriver());
 			a.moveToElement(contUs).click().build().perform();
+			Sleep(3000);
 			return contUs;
+			
 		}
 
 		public WebElement getForm(String name) {
-			passTheValue(form, name);
+			//a.moveToElement(form).perform();
+			passTheValue(form, "joy");
 			return form;
 		}
 
@@ -93,6 +96,7 @@ public class DetegoContactUs extends BaseClassProj{
 		}
 
 		public WebElement getSend() {
+			//send.click();
 			return send;
 		}
 		
