@@ -9,7 +9,7 @@ import net.masterthought.cucumber.ReportBuilder;
 
 public class JvmReport {
 	
-	public static void generateJvmReport(String json) {
+	public static void generateJvmReport(String html) {
 
 		File f= new File("E:\\Cucumber\\Report\\jvm report");
 		
@@ -18,7 +18,7 @@ public class JvmReport {
 		c.addClassifications("Emp id", "123");
 		
 		List<String> li= new ArrayList<>();
-		li.add(json);
+	li.add(html);
 		
 		ReportBuilder r= new ReportBuilder(li, c);
 				r.generateReports();
@@ -27,7 +27,7 @@ public class JvmReport {
 	}
 	public static void main(String[] args) {
 		
-		JvmReport.generateJvmReport("E:\\Cucumber\\Report\\json report\\detego.json");
+		JvmReport.generateJvmReport("E:\\Cucumber\\Report\\html report\\detego.html");
 	}
 	
 

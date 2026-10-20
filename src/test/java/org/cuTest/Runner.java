@@ -19,8 +19,8 @@ tags = "@detego1",
 		plugin = {"pretty",
 
 "html:E:\\Cucumber\\Report\\html report\\detego.html",
-"junit:E:\\Cucumber\\Report\\json report\\detego.xml",	
-//"json:E:\\Cucumber\\Report\\junit report\\detego.json",
+"junit:E:\\Cucumber\\Report\\junit report\\detego.xml",	
+"json:E:\\Cucumber\\Report\\json report\\detego.json",
 "rerun:E:\\Cucumber\\Report\\ReRun report\\rerun.txt"
 })
 
