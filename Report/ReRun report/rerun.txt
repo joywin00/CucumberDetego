@@ -1,4 +1,0 @@
-file:src/test/resources/featurefile/detCreateNew.feature:7
-file:src/test/resources/featurefile/detMbrReg.feature:3
-file:src/test/resources/featurefile/detegoApp.feature:3
-file:src/test/resources/featurefile/detegoMbrSrc.feature:3

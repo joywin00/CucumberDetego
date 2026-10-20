@@ -14,8 +14,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "E:\\Cucumber\\src\\test\\resources\\featurefile", 
 dryRun = false,
-glue = "org.step", 
-plugin = {"pretty",
+glue = "org.step",
+tags = "@detego1",
+		plugin = {"pretty",
+
 "html:E:\\Cucumber\\Report\\html report\\detego.html",
 "junit:E:\\Cucumber\\Report\\json report\\detego.xml",	
 "json:E:\\Cucumber\\Report\\junit report\\detego.json",
